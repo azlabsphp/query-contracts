@@ -1,0 +1,29 @@
+{
+    "name": "drewlabs/query-contracts",
+    "description": "Provides `drewlabs/query` library contracts and interface declaration files",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "query"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Drewlabs\\Query\\Contracts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "azandrew-sidoine",
+            "email": "azandrewdevelopper@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "drewlabs/contracts": "^0.2.30"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
