@@ -13,9 +13,7 @@ declare(strict_types=1);
 
 namespace Drewlabs\Query\Contracts;
 
-use Drewlabs\Contracts\Data\DML\DMLProvider as ClientInterface;
-
-interface QueryLanguageInterface extends ClientInterface
+interface QueryLanguageInterface
 {
     /**
      * Insert a new row to the database.

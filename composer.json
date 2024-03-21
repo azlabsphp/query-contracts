@@ -17,10 +17,10 @@
             "email": "azandrewdevelopper@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
-        "drewlabs/contracts": "^0.2.30"
+        "drewlabs/contracts": "^0.3"
     },
     "config": {
         "optimize-autoloader": true,

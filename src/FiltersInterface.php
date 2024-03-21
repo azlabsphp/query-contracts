@@ -13,9 +13,7 @@ declare(strict_types=1);
 
 namespace Drewlabs\Query\Contracts;
 
-use Drewlabs\Contracts\Data\Filters\FiltersInterface as AbstractFilters;
-
-interface FiltersInterface extends AbstractFilters
+interface FiltersInterface
 {
     /**
      * `apply` method alias as a dropping substitution method.

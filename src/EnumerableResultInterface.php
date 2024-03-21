@@ -13,12 +13,10 @@ declare(strict_types=1);
 
 namespace Drewlabs\Query\Contracts;
 
-use Drewlabs\Contracts\Data\EnumerableQueryResult as BaseEnumerableQueryResult;
-
 /**
  * @psalm-template TResult
  */
-interface EnumerableResultInterface extends \ArrayAccess, BaseEnumerableQueryResult
+interface EnumerableResultInterface extends \ArrayAccess
 {
     /**
      * Returns collection items.
