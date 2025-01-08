@@ -23,12 +23,12 @@ interface CommandInterface
      *
      * @return AbstractActionResult
      */
-    public function __invoke(AbstractAction $action, \Closure $closure = null);
+    public function __invoke(AbstractAction $action, ?\Closure $closure = null);
 
     /**
      * Execute the DML Query action command on developper provided action interface.
      *
      * @return AbstractActionResult
      */
-    public function call(AbstractAction $action, \Closure $closure = null);
+    public function call(AbstractAction $action, ?\Closure $closure = null);
 }

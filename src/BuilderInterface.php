@@ -24,7 +24,7 @@ interface BuilderInterface
      *
      * @return static|object
      */
-    public function and($column, string $operator = null, $value = null);
+    public function and($column, ?string $operator = null, $value = null);
 
     /**
      * add `or` query.
@@ -34,7 +34,7 @@ interface BuilderInterface
      *
      * @return static|object
      */
-    public function or($column, string $operator = null, $value = null);
+    public function or($column, ?string $operator = null, $value = null);
 
     /**
      * apply `date` query.
@@ -45,7 +45,7 @@ interface BuilderInterface
      *
      * @return static|object
      */
-    public function date($column, string $operator = null, $value = null);
+    public function date($column, ?string $operator = null, $value = null);
 
     /**
      * apply `or date` query.
@@ -56,7 +56,7 @@ interface BuilderInterface
      *
      * @return static|object
      */
-    public function orDate($column, string $operator = null, $value = null);
+    public function orDate($column, ?string $operator = null, $value = null);
 
     /**
      * add `in` query.

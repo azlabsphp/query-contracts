@@ -25,5 +25,5 @@ interface FiltersBuilderInterface extends BuilderInterface
      *
      * @return array|mixed
      */
-    public function getQuery(string $method = null);
+    public function getQuery(?string $method = null);
 }
