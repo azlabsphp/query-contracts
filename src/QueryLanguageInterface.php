@@ -16,14 +16,14 @@ namespace Drewlabs\Query\Contracts;
 interface QueryLanguageInterface
 {
     /**
-     * Insert a new row to the database.
+     * insert a new row to the database.
      *
      * @param array ...$args
      */
     public function create(...$args);
 
     /**
-     * Insert many row into the database.
+     * insert many row into the database.
      *
      * @return bool
      */
@@ -37,7 +37,7 @@ interface QueryLanguageInterface
     public function delete(...$args);
 
     /**
-     * Retrieve all row/models matching a given query criteria from the database.
+     * retrieve all row/models matching a given query criteria from the database.
      *
      * $dto_transform_fn if passed in with try to apply data transformation to the return result.
      *
@@ -66,14 +66,14 @@ interface QueryLanguageInterface
     public function select(...$args);
 
     /**
-     * Update a row/model from the database.
+     * update a row/model from the database.
      *
      * Returns the update model with it properties or the transformed value returned the $dto_transform_fn callback
      */
     public function update(...$params);
 
     /**
-     * Run an aggregation method on a query builder result.
+     * run an aggregation method on a query builder result.
      *
      * @return int|mixed
      */
