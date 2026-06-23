@@ -9,7 +9,7 @@ interface Conditionable
      * @template TWhenReturnType
      * 
      * @param (\Closure($this): TWhenParameter)|TWhenParameter|null $value
-     * @param  (callable($this, TWhenParameter): TWhenReturnType)|null  $callback
+     * @param  (callable($this, TWhenParameter): TWhenReturnType)|null  $query
      * @param  (callable($this, TWhenParameter): TWhenReturnType)|null  $default
      * 
      * @return static|FiltersBuilderInterface 

@@ -67,8 +67,11 @@ interface QueryLanguageInterface
 
     /**
      * update a row/model from the database.
-     *
-     * Returns the update model with it properties or the transformed value returned the $dto_transform_fn callback
+     * 
+     * @param mixed ...$params
+     * 
+     * @return mixed
+     * 
      */
     public function update(...$params);
 

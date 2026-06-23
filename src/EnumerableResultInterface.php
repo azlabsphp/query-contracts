@@ -14,6 +14,7 @@ declare(strict_types=1);
 namespace Drewlabs\Query\Contracts;
 
 /**
+ * @template TResult
  * @psalm-template TResult
  */
 interface EnumerableResultInterface extends \ArrayAccess

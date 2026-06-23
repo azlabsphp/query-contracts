@@ -19,6 +19,8 @@ interface FiltersInterface
      * `apply` method alias as a dropping substitution method.
      *
      * @psalm-template TArg of object
+     * 
+     * @param mixed $builder
      *
      * @return TArg|object
      */
