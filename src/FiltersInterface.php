@@ -18,31 +18,30 @@ interface FiltersInterface
     /**
      * `apply` method alias as a dropping substitution method.
      *
-     * @psalm-template TArg of object
+     * @template R
      * 
-     * @param mixed $builder
+     * @param R $builder
      *
-     * @return TArg|object
+     * @return R|object
      */
     public function call($builder);
 
     /**
      * Invoke the current filters object on the platform builder instance.
      *
-     * @psalm-template TResult of object
-     * @psalm-template TArgs of array
+     * @template R
+     * 
+     * @param R $builder
+     * @param mixed   $args
      *
-     * @param TResult $builder
-     * @param TArgs   $args
-     *
-     * @return TResult
+     * @return R
      */
     public function invoke(string $method, $builder, $args);
 
     /**
      * Call query filters on the builder instance.
      *
-     * @psalm-template T of object
+     * @template T of object
      *
      * @param T $builder
      *

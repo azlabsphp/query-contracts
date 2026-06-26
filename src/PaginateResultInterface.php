@@ -13,6 +13,10 @@ declare(strict_types=1);
 
 namespace Drewlabs\Query\Contracts;
 
+/**
+ * @template T
+ * @package Drewlabs\Query\Contracts
+ */
 interface PaginateResultInterface
 {
     /**
@@ -32,9 +36,7 @@ interface PaginateResultInterface
     /**
      * returns the list of items.
      *
-     * @psalm-template TResult
-     *
-     * @return TResult
+     * @return T
      */
     public function items();
 

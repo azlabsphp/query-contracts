@@ -14,26 +14,24 @@ declare(strict_types=1);
 namespace Drewlabs\Query\Contracts;
 
 /**
- * @template TResult
- * @psalm-template TResult
+ * @template T
+ * @psalm-template T
  */
 interface EnumerableResultInterface extends \ArrayAccess
 {
     /**
      * Returns collection items.
      *
-     * @psalm-template TResult
      *
-     * @return TResult
+     * @return T
      */
     public function getCollection();
 
     /**
      * alias for `getCollection()`.
      *
-     * @psalm-template TResult
      *
-     * @return TResult
+     * @return T
      */
     public function items();
 

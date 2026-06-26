@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "46e74d3bb2cd316193bea40a6291b3f2",
+    "content-hash": "9bdc6ee1c4bb283625ca3baa76980f88",
     "packages": [
         {
             "name": "drewlabs/contracts",
-            "version": "v0.3.1",
+            "version": "v0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/azlabsphp/drewlabs-contracts.git",
-                "reference": "d91b888e41fa050d8530b77d851f50139d996fef"
+                "reference": "a6c7db32719897477dab5a0ed67cdb54b72edb33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/azlabsphp/drewlabs-contracts/zipball/d91b888e41fa050d8530b77d851f50139d996fef",
-                "reference": "d91b888e41fa050d8530b77d851f50139d996fef",
+                "url": "https://api.github.com/repos/azlabsphp/drewlabs-contracts/zipball/a6c7db32719897477dab5a0ed67cdb54b72edb33",
+                "reference": "a6c7db32719897477dab5a0ed67cdb54b72edb33",
                 "shasum": ""
             },
             "require": {
@@ -44,9 +44,9 @@
             "description": "Repository for libraries interfaces",
             "support": {
                 "issues": "https://github.com/azlabsphp/drewlabs-contracts/issues",
-                "source": "https://github.com/azlabsphp/drewlabs-contracts/tree/v0.3.1"
+                "source": "https://github.com/azlabsphp/drewlabs-contracts/tree/v0.4.0"
             },
-            "time": "2025-02-18T12:22:49+00:00"
+            "time": "2026-06-23T19:47:43+00:00"
         },
         {
             "name": "psr/container",
@@ -155,7 +155,72 @@
             "time": "2023-04-04T09:54:51+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "phpstan/phpstan",
+            "version": "2.2.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e5cc34d491a90e79c216d824f60fe21fd4d93bd6",
+                "reference": "e5cc34d491a90e79c216d824f60fe21fd4d93bd6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0"
+            },
+            "conflict": {
+                "phpstan/phpstan-shim": "*"
+            },
+            "bin": [
+                "phpstan",
+                "phpstan.phar"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ondřej Mirtes"
+                },
+                {
+                    "name": "Markus Staab"
+                },
+                {
+                    "name": "Vincent Langlet"
+                }
+            ],
+            "description": "PHPStan - PHP Static Analysis Tool",
+            "keywords": [
+                "dev",
+                "static analysis"
+            ],
+            "support": {
+                "docs": "https://phpstan.org/user-guide/getting-started",
+                "forum": "https://github.com/phpstan/phpstan/discussions",
+                "issues": "https://github.com/phpstan/phpstan/issues",
+                "security": "https://github.com/phpstan/phpstan/security/policy",
+                "source": "https://github.com/phpstan/phpstan-src"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ondrejmirtes",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/phpstan",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-06-05T09:00:01+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {},
